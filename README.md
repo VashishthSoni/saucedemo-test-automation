@@ -15,31 +15,6 @@ This project is suitable for **QA internships, fresher roles**, and as a **GitHu
 
 ---
 
-## Project Structure
-saucedemo-test-automation/
-│
-├─ pages/ # Page Object Model classes
-│ ├─ login_page.py
-│ ├─ inventory_page.py
-│ ├─ cart_page.py
-│ └─ checkout_page.py
-│
-├─ tests/ # Pytest test cases
-│ ├─ test_login.py
-│ ├─ test_inventory.py
-│ └─ test_checkout.py
-│
-├─ utils/ # Utility files (optional screenshots, logs)
-│
-├─ conftest.py # Pytest fixtures for WebDriver and setup
-├─ requirements.txt # Project dependencies
-├─ pytest.ini # Pytest configuration
-├─ README.md # This file
-└─ config.json # Configurable data (URLs, credentials, browser)
-
-
----
-
 ## Prerequisites
 
 - Python 3.10+ installed on your system  
@@ -57,13 +32,13 @@ git clone <your-repo-url>
 cd saucedemo-test-automation
 ```
 ### 2. Create and activate virtual environment 
-# Windows
+### Windows
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# macOS/Linux
+### macOS/Linux
 ```bash
 python -m venv venv
 source venv/bin/activate
