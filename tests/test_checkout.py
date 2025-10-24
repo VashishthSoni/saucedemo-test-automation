@@ -14,8 +14,6 @@ def Login(driver):
     login.enter_username("standard_user")
     login.enter_password("secret_sauce")
     login.click_login()
-    time.sleep(3)
-    
     yield
 
 def test_checkout(driver):
@@ -29,15 +27,13 @@ def test_checkout(driver):
     inv.go_to_cart()
     
     cart.click_checkout()
-    time.sleep(3)
-        
+
     checkout.enter_checkout_info("Micheal", "Grey", "123456")
     checkout.click_continue()
-    time.sleep(3)
+    time.sleep(1)
     
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     driver.save_screenshot(f"./screenshots/Checkout_summary{timestamp}.png")
-    checkout.click_finish()
-    time.sleep(3)
     
+    checkout.click_finish()
     assert "Thank you for your order" in checkout.get_confirmation_message()
