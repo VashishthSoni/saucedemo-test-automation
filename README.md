@@ -111,9 +111,18 @@ Example markers: @pytest.mark.smoke, @pytest.mark.regression
 - Screenshots: screenshots/
 - Reports: reports/
 
+## Screenshots
+Login Failed:<br>
+<img src="screenshots/login_failed_20251024_092907.png" alt="Login Failed" width="50%" height="50%" style="padding:10px;">
 
-### Author
+Checkout Summary:<br>
+<img src="screenshots/Checkout_summary_20251024_165246.png" alt="Checkout Summary" width="50%" height="50%" style="padding:10px;">
 
-Vashi – QA & Test Automation Enthusiast
-LinkedIn: https://www.linkedin.com/in/vashishthsoni/
-GitHub: https://github.com/VashishthSoni
+## ✍🏼 Author
+### <b>Vashishth</b>: <b>QA & Test Automation Enthusiast</b> <br>
+<a href="https://github.com/VashishthSoni" target="_blank">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="40" height="40" style="padding:10px;">
+</a>
+<a href="https://www.linkedin.com/in/vashishthsoni/" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="40" height="40" style="padding:10px; border-radius:50px">
+</a>
