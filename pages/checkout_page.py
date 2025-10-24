@@ -18,9 +18,11 @@ class CheckoutPage:
         self.driver.find_element(*self.postal_code).send_keys(PostalCode)
     
     def click_continue(self):
+        self.wait.wait_for_element_visible(self.driver,self.continue_btn,10)
         self.driver.find_element(*self.continue_btn).click()
     
     def click_finish(self):
+        self.wait.wait_for_element_visible(self.driver,self.finish_btn,10)
         self.driver.find_element(*self.finish_btn).click()
 
     def get_confirmation_message(self):
