@@ -28,7 +28,7 @@ This project is suitable for **QA internships, fresher roles**, and as a **GitHu
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/VashishthSoni/saucedemo-test-automation.git
 cd saucedemo-test-automation
 ```
 ### 2. Create and activate virtual environment 
