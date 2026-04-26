@@ -11,8 +11,6 @@ It demonstrates **best practices in automation**, including:
 - Pytest HTML reports  
 - Configurable test data and browser options  
 
-This project is suitable for **QA internships, fresher roles**, and as a **GitHub showcase**.
-
 ---
 
 ## Prerequisites
